@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @startup.name %>
+</p>
+
+<p>
+  <strong>Startup:</strong>
+  <%= @startup.startup_id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @startup.description %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @startup.photo %>
+</p>
+
+<p>
+  <strong>No votes:</strong>
+  <%= @startup.no_votes %>
+</p>
+
+<%= link_to 'Edit', edit_startup_path(@startup) %> |
+<%= link_to 'Back', startups_path %>
